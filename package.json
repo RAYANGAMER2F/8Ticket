@@ -1,0 +1,33 @@
+{
+    "name": "8ticket",
+    "version": "1.0.0",
+    "description": "Open a ticket using reaction with 8Ticket",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DevelopersSupportAR/8Ticket.git"
+    },
+    "keywords": [
+        "ticket-bot"
+    ],
+    "author": "niro",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DevelopersSupportAR/8Ticket/issues"
+    },
+    "homepage": "https://github.com/DevelopersSupportAR/8Ticket#readme",
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "discord-buttons": "^3.2.1",
+        "discord.js": "^12.5.3",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "figlet": "^1.5.0",
+        "fs": "0.0.1-security",
+        "quick.db": "^7.1.3"
+    }
+}
