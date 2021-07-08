@@ -2,6 +2,7 @@ const { MessageButton, MessageActionRow } = require('discord-buttons');
 
 module.exports = async function(client, button) {
         try {
+            await button.reply.defer();
             if (button.id == 'createTicket') {
                 var nameer = `ticket-${button.clicker.user.username}`
                 var checkTickets = button.guild.channels.cache.find(c => c.name == nameer.split(' ').join('-').toLocaleLowerCase());
